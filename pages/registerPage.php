@@ -13,7 +13,7 @@
     ?>
     <h1>Dreamerdream</h1>
     <div class="form-container">
-        <h1>Register</h1>
+    <h1>Register</h1>
         <form action="../php/register.php" method="POST">
             <p>Name:</p>
             <input type="text" name="username">
