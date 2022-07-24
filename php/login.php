@@ -24,8 +24,10 @@ $result = mysqli_query($connect_db, $sql_user_table_select);
 $row = mysqli_fetch_assoc($result);
 
 // Check if the data match with data on phpmyadmin/database
-if($row['username'] === $username && $row['password'] === $pass){
-    echo "<script>window.location.href='../pages/landingPage.php'</script>";
+if($row['username'] === "admin" && $row['password'] === "admin"){
+    echo "<script>window.location.href='../pages/adminPage.php'</script>";
+} else if($row['username'] === $username && $row['password'] === $pass){
+        echo "<script>window.location.href='../pages/landingPage.php'</script>";
 } else{
     echo "<script>
         window.location.href='../index.php'

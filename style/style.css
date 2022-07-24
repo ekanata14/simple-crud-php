@@ -13,20 +13,34 @@ body{
     display: flex;
     justify-content:center;
     align-items:center;
+    flex-direction: column;
     font-family:sans-serif;
+}
+
+h1{
+    color: #5A8F7B;
+}
+
+a{
+    text-decoration: none;
+    color: #5A8F7B;
 }
 
 .form-container{
     border-radius: 20px;
     background-color:var(--darkblue);
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items:center;
     flex-direction:column;
     margin: 20px;
     color: var(--white);
+}
+
+.form-container p{
+    font-size: 16px;
 }
 
 form{
@@ -39,7 +53,7 @@ input{
     border: none;
     border-radius: 20px;
     padding: 16px;
-    font-size: 18px;
+    font-size: 16px;
     outline: none;
 }
 
