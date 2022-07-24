@@ -1,0 +1,52 @@
+:root{
+    --darkblue : #355764;
+    --white: #ffffff;
+    --green: #5A8F7B;
+}
+
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family:sans-serif;
+}
+
+.form-container{
+    border-radius: 20px;
+    background-color:var(--darkblue);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    margin: 20px;
+    color: var(--white);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    border: none;
+    border-radius: 20px;
+    padding: 16px;
+    font-size: 18px;
+    outline: none;
+}
+
+.submit{
+    margin-top: 28px;
+    background-color: var(--green);
+    color: var(--white);
+    cursor: pointer;
+}
+
